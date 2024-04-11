@@ -1,0 +1,245 @@
+/* Set the background color of the body */
+body {
+    background-color: cadetblue;
+}
+
+/* Style the header */
+header {
+    font-size: 36;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+}
+
+/* Style headers and list items */
+header, li {
+    font-size: 20;
+}
+
+/* Set font color and family for headers and paragraphs */
+header, h1, h2, h3, h4, h5, h6, p {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Style the form heading */
+form h3 {
+    font-size: 20;
+    background-color: cadetblue;
+}
+
+/* Set background color for form paragraphs and the form itself */
+form p, form {
+    background-color: cadetblue;
+}
+
+/* Set font size for paragraphs */
+p {
+    font-size: 15;
+}
+
+/* Style the main section with white background and border radius */
+main {
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* Style the heading in the aside section */
+aside h3 {
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* Style the footer paragraph with background color and border radius */
+footer p {
+    background-color: rgb(144, 62, 245);
+    border-radius: 10px;
+}
+
+/* Style the navigation ul */
+nav ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Style the navigation list items */
+nav li {
+    border: 2px solid  rgb(44, 1, 44);
+    background-color: purple;
+    list-style-type: none;
+    float: left;
+    width: 15%;
+    padding: 16px;
+}
+
+/* Style the navigation links */
+nav li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Style navigation links on hover */
+nav li:hover {
+    background-color: black;
+}
+
+/* Style the active navigation item */
+.active {
+    background-color:rgb(44, 1, 44);
+}
+
+/* Style the table */
+table {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-collapse: collapse;
+}
+
+/* Style table cells and headers */
+table td, table th {
+    border: 2px solid #F0F0F0;
+}
+
+/* Style even rows */
+table tr:nth-child(even) {
+    background-color: #F2F2F2;
+}
+
+/* Style row hover */
+table tr:hover {
+    background-color: cadetblue;
+}
+
+/* Style table headers */
+table th {
+    background-color: purple;
+    color: white;
+}
+
+/* Add padding to semantic elements */
+header, nav, section, aside, footer, article {
+    padding: 10px;
+}
+
+/* Style the logo */
+#logo {
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-right: 10px;
+}
+
+/* Style inline h1 */
+h1 {
+    display: inline;
+}
+
+/* Style the fieldset for the form */
+fieldset {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 2px solid white;
+    background-color: cadetblue;
+    float: left;
+    width: 35%;
+    padding: 27px;
+}
+
+/* Style carousel item images */
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+/* Style carousel captions */
+.carousel-caption {
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+
+/* Style carousel item paragraphs */
+.carousel-item p {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+/* Style carousel control buttons */
+.carousel-control-prev,
+.carousel-control-next {
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+/* Style carousel indicators */
+.carousel-indicators {
+    bottom: 10px;
+}
+
+/* Style carousel indicator bullets */
+.carousel-indicators li {
+    background-color: white;
+    border: 2px solid rgb(44, 1, 44);
+}
+
+/* Style active carousel indicator */
+.carousel-indicators .active {
+    background-color: rgb(44, 1, 44);
+    border-color: rgb(44, 1, 44);
+}
+
+/* Style gallery images */
+.gallery-img {
+    width: 90%;
+}
+
+/* Style image gallery container */
+#img-gallery {
+    padding: 10px;
+    background-color: cadetblue;
+}
+
+/* Style image gallery rows */
+#img-gallery .row {
+    margin-bottom: 10px;
+}
+
+/* Set background color for main section */
+main {
+    background-color: cadetblue;
+}
+/* By setting the display property of both labels and inputs to inline-block or inline, they will be displayed alongside each other horizontally*/
+#right_col label,
+#right_col input {
+    display: inline-block;
+}
+
+.gallery-img {
+    max-width: 100%;
+    height: auto;
+    transition: filter 0.3s ease;
+}
+
+.gallery-img:hover {
+    filter: brightness(90%);
+}
+
+.selected {
+    border: solid blue 2px;
+}
+
+.not-selected {
+    filter: grayscale(100%) blur(2px);
+}
