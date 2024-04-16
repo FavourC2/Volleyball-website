@@ -1,129 +1,131 @@
-<!DOCTYPE html>
-<html> <!-- Written by Favour Uduebholo -->
+    <!DOCTYPE html>
+    <html> <!-- Written by Favour Uduebholo -->
 
-<head>
-<meta charset="UTF-8"> <!-- Declares character encoding --> 
-<title>Volleyball Society</title> <!-- The title of the website -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<link rel='stylesheet' href='css/main.css'>
+    <head>
+    <meta charset="UTF-8"> <!-- Declares character encoding --> 
+    <title>Volleyball Society</title> <!-- The title of the website -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel='stylesheet' href='css/main.css'>
 
-</head>
+    </head>
 
-<body>
-    <header>
-        <!-- Logo image and webpage title -->
-        <div id="logo-container">
-            <img id="logo" src="images/logo.png" alt="Logo">
-            <h1>Volleyball Society</h1>
-        </div>
-
-    
-    </header>
-
-    <nav>
-        <ul> <!-- Unorderd list with active links to the diffrent website pages-->
-            <li><a href="index.html">Home</a></li>
-            <li><a href="img_gallery.html">Gallery</a></li>
-            <li><a href="current_members.html">Current Members</a></li>
-            <li><a href="event_calender.html">Events</a></li>
-            <li><a href="contact_us.html">Contact us</a></li>
-            <li><a href="rules.html">Volleyball rules</a></li>
-            <li><a href="faq.html">Club Q&A</a></li>
-
-        </ul>
-        
-    </nav>
-
-    <main>
-        <div id="img-rules">
-
-    <div>
-    <h3>Volleyball is an exciting and dynamic sport played by millions around the world. While it may seem complex at first, the rules of volleyball are actually quite straightforward and easy to understand.</h3>
-    </div>
-    <div>
-     <p>1. The Objective:
-    The goal of volleyball is simple: to score points by hitting the ball over the net and into the opponents court
-    <img id="Spike" width="300" height="200" src="images/spike.jpg" alt="spike_hit" class="img-rules"/>
-    </p>
-
-    <p>
-         2. Basic Gameplay:
-    Volleyball is played by two teams, each with six players on the court. The game starts with a serve, where a player hits the ball over the net to the opposing team.
-    Players then have three touches to return the ball to the opponent's side: bump, set, and spike.
-Points are scored when the ball lands on the opponent's court.
-        <img id="Bench" width="300" height="200" src="images/bench.jpg" alt="Bench_team" class="img-rules"/>
-        
-
-    </p>
-
-    <p>
-     3. Scoring:
-    Points are scored on every rally, regardless of which team served.
-    Matches are typically played in sets, with the first team to reach a certain number of points winning the set.The team that wins a set usually needs to win by at least two points.
-   <img id="Hall" width="300" height="200" src="images/hall.jpg" alt="Blue_hall" class="img-rules"/>
-     </p>
-    
-     
-     <p>
-        Conclusion:
-
-        In summary, while volleyball may have some technical aspects, its rules are designed to keep the game fast-paced, exciting, and accessible to players of all skill levels.
-        With a bit of practice and understanding, anyone can enjoy playing and watching this thrilling sport!
-        So don't be intimidated by the rules of volleyball! Give it a try, and you'll discover just how fun and rewarding it can be.
-       
-
-    
-     </p>
-    
-    
-
-
-
-       
-    
-    
-
-
-    </div>
- <!-- Implements Mouseover/out eventlisteners to add some user interactivety if user hovers on images-->
- <script>
-    const images = document.querySelectorAll(".img-rules");
-   
-       images.forEach(image => {
-           image.addEventListener("mouseover", highlight);
-           image.addEventListener("mouseout", delight);
-       });
-
-       // Highlight function to make image stand out
-       function highlight(event) {
-           event.target.style.border = "solid blue 2px";
-       }
-
-       // delight function to make image stand out less
-       function delight(event) {
-           event.target.style.border = "none";
-       }
-   </script>
-  </div>
-       
-</main>
-
-
+    <body>
+        <header>
+            <!-- Logo image and webpage title -->
+            <div id="logo-container">
+                <img id="logo" src="images/logo.png" alt="Logo">
+                <h1>Volleyball Society</h1>
+            </div>
 
         
-        <aside>
+        </header>
+
+        <nav>
+            <ul> <!-- Unorderd list with active links to the diffrent website pages-->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="img_gallery.html">Gallery</a></li>
+                <li><a href="current_members.html">Current Members</a></li>
+                <li><a href="event_calender.html">Events</a></li>
+                <li><a href="contact_us.html">Contact us</a></li>
+                <li><a href="rules.html">Volleyball rules</a></li>
+                <li><a href="faq.html">Club Q&A</a></li>
+
+            </ul>
             
-            
-        </aside>
-         
-       <!-- Inserts volleyball rules video and adds in reference  -->
-    <footer>
-        <div id="bottom-left">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/OWCkPbzq81g?si=YayB5LFrAV2BXvYS" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </nav>
+
+        <main>
+            <div id="img-rules">
+
+        <div>
+        <h3>Volleyball is an exciting and dynamic sport played by millions around the world. While it may seem complex at first, the rules of volleyball are actually quite straightforward and easy to understand.</h3>
         </div>
-        <h3>Youtube video reference go to <a href="https://www.youtube.com/@SikanaEnglish">SikanaEnglish</a></h3>
-        <p>Copyright Favour uduebholo 2024</p>
+        <div>
+        <p>1. The Objective:
+        The goal of volleyball is simple: to score points by hitting the ball over the net and into the opponents court
+        <img id="Spike" width="300" height="200" src="images/spike.jpg" alt="spike_hit" class="img-rules"/>
+        </p>
+
+        <p>
+            2. Basic Gameplay:
+        Volleyball is played by two teams, each with six players on the court. The game starts with a serve, where a player hits the ball over the net to the opposing team.
+        Players then have three touches to return the ball to the opponent's side: bump, set, and spike.
+    Points are scored when the ball lands on the opponent's court.
+            <img id="Bench" width="300" height="200" src="images/bench.jpg" alt="Bench_team" class="img-rules"/>
+            
+
+        </p>
+
+        <p>
+        3. Scoring:
+        Points are scored on every rally, regardless of which team served.
+        Matches are typically played in sets, with the first team to reach a certain number of points winning the set.The team that wins a set usually needs to win by at least two points.
+    <img id="Hall" width="300" height="200" src="images/hall.jpg" alt="Blue_hall" class="img-rules"/>
+        </p>
+        
+        
+        <p>
+            Conclusion:
+
+            In summary, while volleyball may have some technical aspects, its rules are designed to keep the game fast-paced, exciting, and accessible to players of all skill levels.
+            With a bit of practice and understanding, anyone can enjoy playing and watching this thrilling sport!
+            So don't be intimidated by the rules of volleyball! Give it a try, and you'll discover just how fun and rewarding it can be.
+        
+
+        
+        </p>
+        
+        
+
+
+
+        
+        
+        
+
+
+        </div>
+    <!-- Implements Mouseover/out eventlisteners to add some user interactivety if user hovers on images-->
+    <script>
+        const images = document.querySelectorAll(".img-rules");
+    
+        images.forEach(image => {
+            image.addEventListener("mouseover", highlight);
+            image.addEventListener("mouseout", delight);
+        });
+
+        // Highlight function to make image stand out
+        function highlight(event) {
+            event.target.style.border = "solid blue 2px";
+        }
+
+        // delight function to make image stand out less
+        function delight(event) {
+            event.target.style.border = "none";
+        }
+    </script>
+    </div>
+        
+    </main>
+
+
+
+            
+            <aside>
+                
+                
+            </aside>
+            
+        <!-- Inserts volleyball rules video, with help from Previous Lab lecture on using html to insert content and adds in reference for the video   -->
+        <!-- Embedded YouTube video -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OWCkPbzq81g?si=YayB5LFrAV2BXvYS" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <!-- Heading and link for YouTube video reference -->
+    <h3>Youtube video reference go to <a href="https://www.youtube.com/@SikanaEnglish">SikanaEnglish</a></h3>
+
+
+    <p>Copyright Favour uduebholo 2024</p>
     </footer>
-</body>
-</html>
+    </body>
+    </html>

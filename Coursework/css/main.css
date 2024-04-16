@@ -271,12 +271,7 @@ main {
     filter: brightness(90%);
 }
 
-/* Container for the video and caption */
-#fb-vid {
-    display: flex;
-    align-items: center; 
-    justify-content: flex-start; 
-}
+
 
 /* Added Styling for the video caption */
 #video-refrence {
@@ -284,10 +279,6 @@ main {
     margin-right: 20px; 
 }
 
-/* Adjust margin for the first iframe within #fb-vid */
-#fb-vid > iframe:first-child {
-    margin-right: 35px;
-}
 
 /* Adjust margin for the aside element */
 aside {
