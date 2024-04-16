@@ -337,3 +337,12 @@ form {
 footer {
     margin-top: 20px;
 }
+
+/* Adjusts the position of twitter widget so it doesnt clash with Q&A text */
+.twitter-tweet {
+    float: right; 
+    margin-left: 10px; 
+    padding-bottom: 10px;
+
+}
+
