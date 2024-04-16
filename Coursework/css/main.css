@@ -1,9 +1,11 @@
+
+
 /* Set the background color of the body */
 body {
     background-color: cadetblue;
 }
 
-/* Style the header */
+/* Added Styling to the header */
 header {
     font-size: 36;
     border-top-left-radius: 10px;
@@ -22,7 +24,7 @@ header, h1, h2, h3, h4, h5, h6, p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* Style the form heading */
+/* Added Styling to the form heading */
 form h3 {
     font-size: 20;
     background-color: cadetblue;
@@ -35,78 +37,80 @@ form p, form {
 
 /* Set font size for paragraphs */
 p {
-    font-size: 15;
+    font-size: 15px;
 }
 
-/* Style the main section with white background and border radius */
+/* Added Styling to the main section with white background and border radius */
 main {
     background-color: white;
     border-radius: 10px;
 }
 
-/* Style the heading in the aside section */
+/* Added Styling to the heading in the aside section */
 aside h3 {
     background-color: white;
     border-radius: 10px;
 }
 
-/* Style the footer paragraph with background color and border radius */
+/* Added Styling to the footer paragraph with background color and border radius */
 footer p {
     background-color: rgb(144, 62, 245);
     border-radius: 10px;
 }
 
-/* Style the navigation ul */
+
+
+/* Added Styling to the navigation ul */
 nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-/* Style the navigation list items */
+/* Added Styling to the the navigation list items */
 nav li {
     border: 2px solid  rgb(44, 1, 44);
     background-color: purple;
     list-style-type: none;
     float: left;
-    width: 15%;
+    width: 13%;
     padding: 16px;
 }
 
-/* Style the navigation links */
+/* Added Styling to the navigation links */
 nav li a {
     color: white;
     text-align: center;
     text-decoration: none;
 }
 
-/* Style navigation links on hover */
+/* Added Styling to the navigation links on hover */
 nav li:hover {
     background-color: black;
 }
 
-/* Style the active navigation item */
+/* Added Styling to the active navigation item */
 .active {
     background-color:rgb(44, 1, 44);
 }
 
-/* Style the table */
+/* Added Styling to the the table including fomt family  */
 table {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-collapse: collapse;
 }
 
-/* Style table cells and headers */
+/* Added border and its colour to the table cells and headers */
 table td, table th {
     border: 2px solid #F0F0F0;
 }
 
-/* Style even rows */
+/* Added Colouring to the even rows */
 table tr:nth-child(even) {
     background-color: #F2F2F2;
 }
 
-/* Style row hover */
+/* Added background colour to the row hover */
 table tr:hover {
     background-color: cadetblue;
 }
@@ -117,12 +121,12 @@ table th {
     color: white;
 }
 
-/* Add padding to semantic elements */
+/* Added Padding to the semantic elements */
 header, nav, section, aside, footer, article {
     padding: 10px;
 }
 
-/* Style the logo */
+/* Adjiusting the logo to my fitting */
 #logo {
     height: 50px;
     width: 50px;
@@ -130,12 +134,12 @@ header, nav, section, aside, footer, article {
     margin-right: 10px;
 }
 
-/* Style inline h1 */
+/* Added display settings to the inline h1 */
 h1 {
     display: inline;
 }
 
-/* Style the fieldset for the form */
+/* Added Styling to the fieldset for the form */
 fieldset {
     margin: 0;
     padding: 0;
@@ -147,13 +151,13 @@ fieldset {
     padding: 27px;
 }
 
-/* Style carousel item images */
+/* Added Styling to the carousel item images */
 .carousel-item img {
     height: 500px;
     object-fit: cover;
 }
 
-/* Style carousel captions */
+/* Added Styling to the carousel captions */
 .carousel-caption {
     color: white;
     position: absolute;
@@ -162,7 +166,7 @@ fieldset {
     padding: 10px;
 }
 
-/* Style carousel item paragraphs */
+/* Added Styling to the carousel item paragraphs */
 .carousel-item p {
     position: absolute;
     top: 10px;
@@ -174,7 +178,7 @@ fieldset {
     z-index: 1;
 }
 
-/* Style carousel control buttons */
+/* Added Styling to the carousel control buttons */
 .carousel-control-prev,
 .carousel-control-next {
     font-size: 1.5rem;
@@ -183,35 +187,35 @@ fieldset {
     border: none;
 }
 
-/* Style carousel indicators */
+/* Added Styling to the carousel indicators */
 .carousel-indicators {
     bottom: 10px;
 }
 
-/* Style carousel indicator bullets */
+/* Added Styling to the carousel indicator bullets */
 .carousel-indicators li {
     background-color: white;
     border: 2px solid rgb(44, 1, 44);
 }
 
-/* Style active carousel indicator */
+/* Added colouring to the active carousel indicator */
 .carousel-indicators .active {
     background-color: rgb(44, 1, 44);
     border-color: rgb(44, 1, 44);
 }
 
-/* Style gallery images */
+/* Added width settings to gallery images */
 .gallery-img {
     width: 90%;
 }
 
-/* Style image gallery container */
+/* Added Styling to the image gallery container */
 #img-gallery {
     padding: 10px;
     background-color: cadetblue;
 }
 
-/* Style image gallery rows */
+/* Added margin size to the image gallery rows */
 #img-gallery .row {
     margin-bottom: 10px;
 }
@@ -226,20 +230,110 @@ main {
     display: inline-block;
 }
 
+/* Styling for gallery images */
 .gallery-img {
+    max-width: 100%;
+    height: auto;
+    transition: filter 0.3s ease; /* Adds a smooth transition  on images */
+}
+
+/* Hover effect for gallery images */
+.gallery-img:hover {
+    filter: brightness(90%);
+}
+
+/* Styling for selected gallery images */
+.selected {
+    border: solid rgb(44, 1, 44) 2px;
+}
+
+/* Styling for not-selected gallery images */
+.not-selected {
+    filter: grayscale(100%) blur(2px);
+}
+
+
+/* Helps Align specific image to the right of text */
+#Hall{
+    float:right;
+    margin-left: 10px;
+}
+
+/* Styling for images related to volleyball rules */
+.img-rules {
     max-width: 100%;
     height: auto;
     transition: filter 0.3s ease;
 }
 
-.gallery-img:hover {
+/* Hover effect for images related to volleyball rules */
+.img-rules:hover {
     filter: brightness(90%);
 }
 
-.selected {
-    border: solid blue 2px;
+/* Container for the video and caption */
+#fb-vid {
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start; 
 }
 
-.not-selected {
-    filter: grayscale(100%) blur(2px);
+/* Added Styling for the video caption */
+#video-refrence {
+    text-align: center; 
+    margin-right: 20px; 
+}
+
+/* Adjust margin for the first iframe within #fb-vid */
+#fb-vid > iframe:first-child {
+    margin-right: 35px;
+}
+
+/* Adjust margin for the aside element */
+aside {
+    margin-top: 20px;
+}
+
+/* Flex layout for .article class */
+.article {
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Set dimensions and margin for images within .article */
+.article img {
+    width: 600px;
+    height: 600px;
+    margin-right: 40px;
+}
+
+/* Make .article-content grow to fill remaining space */
+.article-content {
+    flex-grow: 1;
+}
+
+/* Styling  for tables on event calender */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Center text and vertically align content within table on event calender  */
+th, td {
+    text-align: center;
+    vertical-align: middle;
+    width: 8.33%; 
+    font-size: 15px; 
+    padding: 5px;
+    border: 1px solid black; 
+}
+
+/* Adjust margin for form */
+form {
+    margin-top: 20px;
+}
+
+/* Adjust margin for footer */
+footer {
+    margin-top: 20px;
 }
