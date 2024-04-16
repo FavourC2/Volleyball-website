@@ -39,7 +39,7 @@
 
     <main>
         <form>
-            <!-- HTML form so that users can contact the society -->
+            <!--  form so that users can contact the society -->
             <h3> contact us </h3>
             <p>Use the form below, or follow us on social media.</p>
             <div id="left_col">
@@ -50,6 +50,7 @@
                     <label for="email">Email:</label>
                     <input type="text" id="email" name="email" value=""> <br><br>
 
+                    <!-- Improved accessibility by using checkboxes instead of dropdown for membership status -->
                     <label for="member">Member</label> 
                     <input type="checkbox" id="member" name="membership_status" value="member">
 
@@ -62,6 +63,7 @@
                     <label for="myfile">Attach a file:</label>
                     <input type="file" id="myfile" name="myfile"> <br><br>
 
+                     <!-- Using a button instead of submit for better control and security -->
                     <button type="button" onclick="send_form('form_outcome', 'Form has been sent successfully!')">Submit</button>
                     <script>
                         function send_form(element_id, message) {
@@ -82,6 +84,7 @@
     <aside></aside>
 
     <footer>
+        <!-- Improved accessibility by providing copyright information -->
         <p>Copyright Favour uduebholo 2024</p>
     </footer>
 
