@@ -253,7 +253,7 @@ main {
 }
 
 
-/* Helps Align specific image to the right of text */
+/* Helps Align  image to the right of text */
 #Hall{
     float:right;
     margin-left: 10px;
@@ -336,5 +336,25 @@ footer {
     padding-bottom: 10px;
     
 
+}
+
+/* Attribute Selector: Apply styles to links with href attributes containing "twitter.com" */
+a[href*="twitter.com"] {
+    color: rgb(44, 1, 44);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Styling the Twitter widget reference */
+#twitter_widget {
+    margin-top: 20px; 
+    text-align: left; 
+}
+
+/* Styling for the YouTube video reference */
+h3 a[href*="youtube.com"] {
+    color: rgb(44, 1, 44);
+    text-decoration: underline;
+    font-weight: bold;
 }
 
